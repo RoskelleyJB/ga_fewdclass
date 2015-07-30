@@ -1,0 +1,50 @@
+body {
+  background-color: #D6C2AD;
+}
+.container {
+  width: 960px;
+  margin: 100px auto;
+  border: 1px solid #000;
+  padding: 20px;
+  background: #fff;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: 20px 20px 0px 0px #9D9288;
+  box-shadow: 20px 20px 0px 0px #9D9288;
+}
+header {
+  border-top: 2px solid #000;
+  padding: 30px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+header a {
+  color: #000;  
+}
+.about-link {
+  font-style: italic;
+  text-decoration: none;
+}
+.description {
+  margin: 10px 50px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+.me {
+  width: 230px;
+  float: right;
+  margin-left: 20px;
+}
+.rel-section {
+  border-top: 1px solid #000;
+}
+.clearfix {
+  clear: both;
+  content: “”;
+  display: table;
+}
