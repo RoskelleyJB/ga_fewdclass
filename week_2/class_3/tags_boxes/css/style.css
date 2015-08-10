@@ -1,0 +1,37 @@
+h1 {
+  background: red;
+  padding: 20px;
+  border: 5px solid black;
+}
+p {
+  background: blue;
+  color: white;
+  padding: 20px;
+  border: 5px solid black;
+}
+code {
+  background: white;
+  color: black;
+  padding: 2px;
+  border: 1px solid black;
+}
+h2 {
+  background: green;
+  color: black;
+  padding: 10px;
+  border: 3px solid black;
+}
+.first li {
+  display: inline;
+  list-style-type: none;
+  background: red;
+  border: 1px solid black;
+  padding: 3px;
+  margin: 50px;
+}
+.second li {
+  margin: 20px;
+  background: blue;
+  padding: 5px;
+  color: white;
+}

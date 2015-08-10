@@ -1,0 +1,91 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  background: cyan;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+header {
+  background: blue;
+  height: 150px;
+  color: #fff;
+  padding: 20px;
+}
+header nav {
+  float: right;
+}
+header nav a {
+  color: #fff;
+  padding: 20px;
+  font-size: 21px;
+}
+.hero {
+  background: black;
+  height: 300px;
+}
+.clearfix:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+.benefits .benefit {
+  float: left;
+  background: green;
+  border: 1px solid darkgreen;
+  width: 33.333333333%;
+  height: 40px;
+  text-align: center;
+}
+.benefit:hover {
+  font-weight: bold;
+  background: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#notification {
+  background: yellow;
+  border: 1px solid gold;
+}
+.message {
+  background: lightblue;
+  padding: 5px 15px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.error {
+  background: rgba(255, 0, 0, .5);
+  border: 1px solid rgba(255, 0, 0, 1);
+}
+.success {
+  background: green;
+  border: 1px solid green;
+}*/
