@@ -19,7 +19,7 @@ Developer @GA in ATL
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
+     content: " ";
      display: block;
      clear: both;
      visibility: hidden;
@@ -52,7 +52,6 @@ body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
-
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -68,6 +67,37 @@ body {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+nav {
+  background: rgba(0,0,0,0.60);
+  height: 60px;
+  color: #fff;
+  margin: 0px;
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+  z-index: 2;
+  padding: 0px 50px;
+}
+nav .logo {
+  font-size: 40px;
+  font-weight: 800;
+  float: left;
+  margin-right: 300px;
+  color: #fff;
+}
+nav ul {
+  margin: 0px;
+}
+nav ul a {
+  color: #fff;
+  text-decoration: none;
+  float: left;
+  font-size: 25px;
+  margin: 0px 20px;
+}
+nav ul a:visited {
+  color: #fff;
+}
 .hero {
   background: url(../images/header_bg.jpg) no-repeat;
   background-position: center top;
@@ -78,14 +108,10 @@ body {
   padding-top: 50px;
   padding-left: 150px;
 }
-.hero .logo {
-  font-size: 40px;
-  font-weight: 800;
-}
 .hero h1 {
   font-size: 40px;
   font-weight: 600;
-  margin-top: 50px;
+  margin-top: 150px;
   width: 50%;
 }
 .hero a {
@@ -184,7 +210,7 @@ footer {
   background-color: #121212;
   color: white;
   margin: 0 auto;
-  padding: 50px;
+  padding: 30px;
 }
 footer h2 {
   font-size: 35px;
@@ -197,11 +223,70 @@ footer img {
 }
 footer .social-logos {
   width: 145px;
-  margin: 40px auto;
+  margin: 20px auto;
 }
 footer p {
   font-size: 17px;
   font-weight: 600;
   text-align: center;
 }
-
+.blog-container {
+  background: #F3F3F3;
+}
+.blog-posts {
+  float: left;
+  width: 70%;
+  padding: 60px 20px 20px 20px;
+  float: left;
+}
+.blog-post {
+  border-bottom: 2px solid #000;
+}
+.blog-post h2 {
+  font-size: 40px;
+}
+.blog-post img {
+  width: 100%;
+}
+.blog-post p {
+  font-size: 18px;
+}
+.blog-post a {
+  text-decoration: none;
+}
+.blog-links {
+  width: 30%;
+  padding: 70px 20px 20px 20px;
+  float: left;
+}
+.blog-links h3 {
+  font-size: 28px;
+}
+.blog-links p {
+  font-size: 16px;
+  margin: 0;
+}
+.blog-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.blog-links ul {
+  padding-left: 10px;
+}
+.blog-links ul li {
+  list-style: none;
+  font-size: 20px;
+  margin: 5px 0px;
+}
+.first-letter {
+  float: left;
+  font-size: 70px;
+  line-height: 70px;
+  margin-right: 7px;
+}
+.read-more {
+  text-align: right;
+  font-weight: bold;
+  color: #000;
+}
